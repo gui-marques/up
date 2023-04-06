@@ -8,11 +8,11 @@ import { fadeIn } from "../variants";
 
 const Service = () => {
   return (
-    <nav id="service" className="flex mx-8 justify-center">
-      <div className="grid justify-items-center pb-20">
+    <nav id="service" className="min-h-[85vh] mt-20 lg:min-h-[78vh] flex items-center">
+      <div className="container   mx-auto">
         {" "}
         <p className="h2 text-accent pt-6 pb-10">Serviços</p>
-        <div className="grid justify-items-center gap-6 grid-cols-4">
+        <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           <motion.div
             className="grid justify-items-center"
             variants={fadeIn("down", 0.3)}
