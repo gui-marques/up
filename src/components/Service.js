@@ -8,8 +8,9 @@ import { fadeIn } from "../variants";
 
 const Service = () => {
   return (
-    <nav id="service" className="min-h-[85vh] mt-20 lg:min-h-[78vh] flex items-center">
-      <div className="container   mx-auto">
+    <section id="service" className="section   ">
+      <div  className="container  mx-auto">
+      <div className="flex-1 text-center font-secondary lg:text-left">
         {" "}
         <p className="h2 text-accent pt-6 pb-10">Serviços</p>
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
@@ -119,7 +120,8 @@ const Service = () => {
           </motion.div>
         </div>
       </div>
-    </nav>
+      </div>
+    </section>
   );
 };
 

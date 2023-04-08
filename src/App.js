@@ -17,7 +17,7 @@ const App = () => {
       <About />
       <Service />   
      
-      <div className='h-[100vh]'></div>
+      <div className='h-[100vh]'/>
     </div>
   );
 };

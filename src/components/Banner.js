@@ -1,6 +1,6 @@
 import React from "react";
 
-import Image from "../assets/avatar.svg";
+import Image from "../assets/up1.png";
 
 import { FaFacebook, FaLinkedin, FaWhatsapp,FaEnvelope } from "react-icons/fa";
 
