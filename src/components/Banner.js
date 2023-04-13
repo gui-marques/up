@@ -67,12 +67,12 @@ const Banner = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.7}}
-          className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
+          className="flex max-w-max gap-x-6 items-center mb-4 mx-auto lg:mx-0">
             <Link
             to="about"
             activeClass="active"
             smooth={true}            
-            offset={0}
+            offset={62}
             className="cursor-pointer  flex items-center btn btn-sm justfy-center">          
             Saiba mais
           </Link>           
@@ -101,7 +101,6 @@ const Banner = () => {
               </a>
               <a href="1">
               <FaEnvelope />
-
               </a>
 
             </motion.div>

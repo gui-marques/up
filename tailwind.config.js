@@ -27,7 +27,7 @@ module.exports = {
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
       },
-      
+     
     },
   },
   plugins: [],

@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
 import Service from './components/Service';
+import Preco from './components/Preco';
 
 
 
@@ -15,7 +16,8 @@ const App = () => {
       <Banner />
       <Nav />
       <About />
-      <Service />   
+      <Service /> 
+      <Preco />  
      
       <div className='h-[100vh]'/>
     </div>

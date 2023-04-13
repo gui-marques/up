@@ -8,12 +8,12 @@ import { fadeIn } from "../variants";
 
 const Service = () => {
   return (
-    <section id="service" className="section   ">
-      <div  className="container  mx-auto">
+    <section id="service" className="section mt-[600px]">
+    <div  className="container  mx-auto">
       <div className="flex-1 text-center font-secondary lg:text-left">
         {" "}
         <p className="h2 text-accent pt-6 pb-10">Serviços</p>
-        <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
+        <div className="grid lg:grid-cols-4 gap-6 md:grid-cols-2 grid-cols-1">
           <motion.div
             className="grid justify-items-center"
             variants={fadeIn("down", 0.3)}
@@ -26,14 +26,14 @@ const Service = () => {
               alt=""/>
               <div className="grid justify-items-center">
             <p
-              className="mb-6 pt-6 text-[36px] lg:text-[21px] font-secondary  font-semibold p-0 uppercase leading-[1]"
+              className="mb-0 pt-5 text-[36px] lg:text-[21px] font-secondary text-center font-semibold p-0 uppercase leading-[1]"
               
               wrapper="span"
               repeat={Infinity}
               >
               Marketing nas redes sociais
             </p>
-            <p>
+            <p className="text-center">
               O Marketing envolve a promoção de sua marca nos canais sociais, a
               fim de aumentar o reconhecimento da marca, direcionar o tráfego
               para seu site e gerar leads. Para isso, você pode criar posts em
@@ -42,7 +42,7 @@ const Service = () => {
               </div>
           </motion.div>
           <motion.div
-            className="grid  justify-items-center"
+            className="grid text-center  justify-items-center"
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
@@ -54,7 +54,7 @@ const Service = () => {
               alt=""
               />
               <div className="grid justify-items-center">
-            <p className="mb-6 pt-6 text-[36px] lg:text-[21px]  font-secondary font-semibold  uppercase leading-[1]">
+            <p className="mb-0 pt-5 text-[36px] lg:text-[21px] font-secondary  font-semibold p-0 uppercase leading-[1]">
               SEO <br />
               (otimização para motores de busca)
             </p>
@@ -68,7 +68,7 @@ const Service = () => {
             </div>
           </motion.div>
           <motion.div
-            className="grid justify-items-center"
+            className="grid text-center justify-items-center"
             variants={fadeIn("down", 0.3)}
             initial="hidden"
             whileInView={"show"}
@@ -81,7 +81,7 @@ const Service = () => {
               />
             <div className="grid justify-items-center">
 
-            <p className="mb-6 pt-6 text-[36px] lg:text-[21px]  font-secondary font-semibold  uppercase leading-[1]">
+            <p className="mb-0 pt-5 text-[36px] lg:text-[21px] font-secondary  font-semibold p-0 uppercase leading-[1]">
               Publicidade nativa
             </p>
             <p>
@@ -94,7 +94,7 @@ const Service = () => {
             </div>
           </motion.div>
           <motion.div
-            className="grid justify-items-center"
+            className="grid text-center justify-items-center"
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
@@ -107,10 +107,10 @@ const Service = () => {
               />
               <div className="grid justify-items-center">
 
-            <p className="mb-6 pt-6 text-[36px] lg:text-[21px]  font-secondary font-semibold  uppercase leading-[1]">
+            <p className="mb-0 pt-5 text-[36px] lg:text-[21px] font-secondary font-semibold p-0 uppercase leading-[1]">
               Tráfego Orgânico/Pago
             </p>
-            <p>
+            <p className="place-self-auto">
               Trafego Orgânico/Pago é a maneira que o cliente chega até você,
               com o trafego pago você leva a sua empresa até ele, com o orgânico
               você faz o cliente chegar até você, através de uma publicação, um

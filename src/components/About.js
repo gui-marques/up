@@ -20,7 +20,7 @@ const About = () => {
       <div className="container mx-auto">
         <div className='flex flex-col gap-y-1 lg:flex-row lg:items-center 
          h-screen'>
-          <motion.div className="flex-1 bg-about bg-contain bg-no-repeat h-[650px] mix-blend-lighten bg-top"
+          <motion.div className="flex-1 bg-about bg-contain bg-no-repeat h-[600px] mix-blend-lighten bg-top"
           variants={fadeIn('right', 0.3)}
           initial='hidden'
           whileInView={'show'}
@@ -34,8 +34,8 @@ const About = () => {
           whileInView={'show'}
           viewport={{once: false, amount: 0.3}}
           className='flex-1'>
-            <h2 className='h2 text-accent'>Sobre</h2>
-            <h3 className='h4 mb-2'>
+            <h2 className='h2 mb-0 text-accent'>Sobre</h2>
+            <h3 className='h4'>
               Nós nos dedicamos a entender as necessidades e objetivos de cada
               cliente, personalizando nossas estratégias de marketing de acordo
               com suas metas específicas. Com a UpFlow, você pode esperar
@@ -52,7 +52,7 @@ const About = () => {
               merece. Agende uma consulta hoje mesmo e descubra como podemos
               ajudá-lo a alcançar seus objetivos de marketing.
             </h3>
-           <div className='pt-3 pb-4 grid gap-2 grid-cols-2'>
+           <div className='pt-3 pb-1 grid gap-2 grid-cols-2'>
             <p className='text-sm flex space-x-4' >
             <FaCheck/>  Confiança e respeito no seu segmento.
             </p>
@@ -75,10 +75,10 @@ const About = () => {
             <FaCheck/> Criamos um plano unico com a necessidade do cliente.
             </p>
            </div>
-            <div className="flex gap-x-6 lg:gap-x-10 mb-12">
+            <div className="flex gap-x-6 lg:gap-x-10 mb-0">
               <div>
-                <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={2} duration={3} /> : null}
+                <div className="text-[40px] font-tertiary text-gradient mb-0">
+                  {inView ? <CountUp start={0} end={2} duration={4} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-tight-[2px]">
                   Anos de <br />
@@ -86,18 +86,18 @@ const About = () => {
                 </div>
               </div>
               <div>
-                <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={10} duration={3} /> : null}
+                <div className="text-[40px] font-tertiary text-gradient mb-0">
+                  {inView ? <CountUp start={0} end={10} duration={5} /> : null}
                   K+
                 </div>
-                <div className="font-primary text-sm tracking-tight-[2px]">
+                <div className="font-primary text-sm tracking-tight-[2px] ">
                   Projetos <br />
                   Completos
                 </div>
               </div>
               <div>
-                <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={59} duration={3} /> : null}
+                <div className="text-[40px] font-tertiary text-gradient mb-0">
+                  {inView ? <CountUp start={0} end={59} duration={6} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-tight-[2px]">
                   Clientes <br />

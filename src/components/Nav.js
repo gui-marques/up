@@ -1,7 +1,7 @@
 import React from "react";
-import { FaInfo, FaHome } from "react-icons/fa";
+import { FaInfo, FaHome, FaMoneyBillAlt } from "react-icons/fa";
 
-import { BsClipboardData, BsBriefcase, BsChatSquareText } from "react-icons/bs";
+import { BsClipboardData,  BsChatSquareText } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Nav = () => {
@@ -9,7 +9,7 @@ const Nav = () => {
     <nav className="fixed bottom-0 lg:bottom-0.5 w-full overflow-hidden z-50">
       <div className="container mx-auto">
         <div
-          className="w-full bg-black/30  h-[45px] backdrop-blur-2xl
+          className="w-full bg-black/30  h-[40px] backdrop-blur-2xl
         rounded-full max-w-[350px] mx-auto px-6 flex justify-between 
         items-center text-2xl text-white/70"
         >
@@ -28,7 +28,7 @@ const Nav = () => {
             to="about"
             activeClass="active"
             smooth={true}
-            offset={0}
+            offset={62}
             spy={true}
             className="cursor-pointer   flex items-center
             justfy-center">
@@ -38,19 +38,21 @@ const Nav = () => {
             to="service"
             activeClass="active"
             smooth={true}
+            offset={0}
             spy={true}
             className="cursor-pointer   flex items-center
             justfy-center">
             <BsClipboardData />
           </Link>
           <Link
-            to="work"
+            to="preco"
             activeClass="active"
             smooth={true}
+            offset={150}
             spy={true}
             className="cursor-pointer  flex items-center
             justfy-center">
-            <BsBriefcase />
+            <FaMoneyBillAlt />
           </Link>
           <Link
             to="contact"
