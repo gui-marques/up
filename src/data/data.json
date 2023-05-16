@@ -1,0 +1,75 @@
+{
+    "Preco": [
+        {
+            "title": "Basic",
+            "cifra": "R$",
+            "preco": "499,90",
+            "frequency": "/Mês",
+            "description": "Plano essêncial para quem está iniciando",
+            "features": [
+                "3 Posts por semana  (até 12 posts por mês)",
+                "Instagram e Facebook",
+                "Arte(criativo) + Postagem  (Feed, Stories e Reels)",
+                "Padronização de Rede Social",
+                "Relatorio detalhado",
+                "Indicação de clientes  (1 mês gratis para os dois)"                
+            ]
+            
+        },
+        {
+            "title": "Standard",
+            "cifra": "R$",
+            "preco": "849,90",
+            "frequency": "/Mês",
+            "description": "Plano essêncial para quem já tem uma marca ativa",
+            "mostPopular": "Mais Popular",
+            "features": [
+                "3 Posts por semana  (até 12 posts por mês)",
+                "Instagram e Facebook",
+                "Arte(criativo) + Postagem  (Feed, Stories e Reels)",
+                "Padronização de Rede Social",
+                "Relatorio detalhado",
+                "Indicação de clientes  (1 mês gratis para os dois)" ,
+                "Planejamento mensal de conteúdo",
+                "Copy para os criativos"
+            ]
+            
+        },
+        {
+            "title": "Premium",
+            "cifra": "R$",
+            "preco": "1299,90",
+            "frequency": "/Mês",
+            "description": "Plano para quem já está a mais de dois anos no mercado digital",
+            "features": [
+                "3 Posts por semana  (até 12 posts por mês)",
+                "Instagram e Facebook",
+                "Arte(criativo) + Postagem  (Feed, Stories e Reels)",
+                "Padronização de Rede Social",
+                "Relatorio detalhado",
+                "Indicação de clientes  (1 mês gratis para os dois)" ,
+                "Planejamento mensal de conteúdo",
+                "Copy para os criativos",
+                "Interação com o publico alvo",
+                "Gestão de Trafego pago"
+            ]
+            
+        },
+        {
+            "title": "Avulso",
+            "cifra": "R$",
+            "preco": "Aconsultar",
+            "frequency": "",
+            "description": "Para quem precisa de atendimento avulso",
+            "features": [
+                "Arte para Rede Social",
+                "Arte para Rede Social  + Post",
+                "Pacote Criativos (10 artes)",
+                "Padronização de Rede Social"
+            ]
+            
+        }
+      
+    ]
+   
+}

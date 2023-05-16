@@ -72,7 +72,7 @@ const Banner = () => {
             to="about"
             activeClass="active"
             smooth={true}            
-            offset={62}
+            offset={52}
             className="cursor-pointer  flex items-center btn btn-sm justfy-center">          
             Saiba mais
           </Link>           
@@ -110,7 +110,7 @@ const Banner = () => {
           initial='hidden'
           whileInView={'show'}          
            className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
-            <img src={Image} alt="" />
+            <img src={Image} alt="Social Media" />
           </motion.div>
         </div>
       </div>

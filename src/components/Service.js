@@ -12,8 +12,15 @@ const Service = () => {
     <div  className="container  mx-auto">
       <div className="flex-1 text-center font-secondary lg:text-left">
         {" "}
-        <p className="h2 text-accent pt-6 pb-10">Serviços</p>
-        <div className="grid lg:grid-cols-4 gap-6 md:grid-cols-2 grid-cols-1">
+        <motion.span
+          variants={fadeIn('up', 0.5)}
+          initial='hidden'
+          whileInView={'show'}
+          viewport={{ once: false, amount: 0.5}}
+          className="text-[50px] font-bold leading-[0.8] lg:text-[80px] text-accent"
+          >SERVIÇOS</motion.span>
+       
+        <div className="grid m-8 lg:grid-cols-4 gap-6 md:grid-cols-2 grid-cols-1">
           <motion.div
             className="grid justify-items-center"
             variants={fadeIn("down", 0.3)}
@@ -26,7 +33,7 @@ const Service = () => {
               alt=""/>
               <div className="grid justify-items-center">
             <p
-              className="mb-0 pt-5 text-[36px] lg:text-[21px] font-secondary text-center font-semibold p-0 uppercase leading-[1]"
+            className="mb-0 pt-5 text-[36px] lg:text-[21px] font-secondary text-center font-semibold p-0 uppercase leading-[1]"
               
               wrapper="span"
               repeat={Infinity}
