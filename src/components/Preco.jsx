@@ -34,9 +34,9 @@ const Preco = (props) => {
                   {plan.description}
                 </p>
                 <div className="-mx-8 mt-0 rounded-lg p-0">
-                  <span className="text-sm font-semibold ">{plan.cifra}</span>
+                  {/* <span className="text-sm font-semibold ">{plan.cifra}</span>
                   <span className="ml-1 text-4xl">{plan.preco}</span>
-                  <span className="ml-1.5">{plan.frequency}</span>
+                  <span className="ml-1.5">{plan.frequency}</span> */}
                 </div>
 
                 <ul className="mt-4  space-y-1">
@@ -46,7 +46,7 @@ const Preco = (props) => {
                     >
 
                       <svg
-                      className="float-left w-5 h-5 text-cyan-500 " 
+                      className="float-left w-5 h-5 text-accent " 
                       version="1.1" id="Layer_1" 
                       xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 122.88 109.76" >
 
