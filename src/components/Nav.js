@@ -28,7 +28,7 @@ const Nav = () => {
             to="about"
             activeClass="active"
             smooth={true}
-            offset={62}
+            offset={42}
             spy={true}
             className="cursor-pointer   flex items-center
             justfy-center">
@@ -38,7 +38,7 @@ const Nav = () => {
             to="service"
             activeClass="active"
             smooth={true}
-            offset={0}
+            offset={30}
             spy={true}
             className="cursor-pointer   flex items-center
             justfy-center">
@@ -48,7 +48,7 @@ const Nav = () => {
             to="preco"
             activeClass="active"
             smooth={true}
-            offset={150}
+            offset={120}
             spy={true}
             className="cursor-pointer  flex items-center
             justfy-center">
@@ -58,6 +58,7 @@ const Nav = () => {
             to="contact"
             activeClass="active"
             smooth={true}
+            offset={0}
             spy={true}
             className="cursor-pointer  flex items-center
             justfy-center">
