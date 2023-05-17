@@ -8,7 +8,8 @@ import About from './components/About';
 import Service from './components/Service';
 import Preco from './components/Preco';
 import JsonData from './data/data.json'
-import Contact from './components/Contact';
+import { Contact} from './components/Contact';
+
 
 
 const App = () => {
@@ -27,7 +28,7 @@ const App = () => {
       <Preco data={landingPageData.Preco} /> 
       <Contact data={landingPageData.Contact} />  
      
-      <div className='h-[100vh]'/>
+      <div className='h-[13vh]'/>
     </div>
   );
 };

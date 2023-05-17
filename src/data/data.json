@@ -70,6 +70,21 @@
             
         }
       
+    ],
+    "Contact": {
+        "address": " Web",
+        "phone": "+55 (41) 99841-9824",
+        "email": "marketing@upflowmarketing.net",        
+        "cnpj": "41.796.591/0001-32",
+        "facebook": "https://www.facebook.com/people/Up-Flow/100090353110076/?mibextid=LQQJ4d",
+        "instagram": "https://www.instagram.com/up.flowmarketing/",
+        "whatsapp": "https://wa.me/5541998419824"
+    },
+    "Widget": [
+        {
+            "name": "WhatSapp",
+            "img": "assets/bwpp.png"      
+        }
     ]
    
 }

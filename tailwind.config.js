@@ -22,6 +22,9 @@ module.exports = {
         primary: '#0a0a0a',
         accent: '#B809C3',
       },
+      zIndex: {
+        '100': '100',
+      },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",
         about: "url('./assets/about.png')",
@@ -35,6 +38,8 @@ module.exports = {
       strategy: 'base', // only generate global styles
       strategy: 'class', // only generate classes
     }),
+
+   
   ],
   
 };
