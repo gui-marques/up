@@ -125,7 +125,7 @@ const Banner = () => {
                 to="contact"
                 activeClass="active"
                 smooth={true}
-                offset={10}
+                offset={50}
                 className="cursor-pointer"
               >
                 
@@ -138,7 +138,7 @@ const Banner = () => {
             variants={fadeIn("down", 0.4)}
             initial="hidden"
             whileInView={"show"}
-            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
+            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[1200px] h-[80vh] "
           >
             <img src={Image} alt="Social Media" />
           </motion.div>
