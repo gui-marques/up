@@ -1,11 +1,10 @@
 import React from "react";
 
-import Image from "../assets/up1.png";
+import Image from "../assets/up3.png";
 
 import {
   FaFacebook,
-  FaInstagram,
-  FaLinkedin,
+  FaInstagram,  
   FaWhatsapp,
   FaEnvelope,
 } from "react-icons/fa";
