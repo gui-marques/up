@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { AiOutlineMail, AiOutlineEnvironment, AiOutlinePhone, AiOutlineException } from 'react-icons/ai';
+import { BsInstagram, BsWhatsapp, BsFacebook } from 'react-icons/bs'
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
@@ -32,10 +33,11 @@ export const Contact = (props) => {
       .then(
         (result) => {
           // console.log(result.text)
-          alert('Mensagem enviada com Successo! :D')
+          alert('Mensagem enviada com Successo!')
           clearState()
         },
         (error) => {
+          alert('Mensagem não pode ser enviada, por favor verifique todos os campos.')
           // console.log(error.text)
         }
       )
@@ -64,6 +66,8 @@ export const Contact = (props) => {
                         type='text'
                         id='name'
                         name='name'
+                        minLength={3}
+                        maxLength={15}
                         className="border border-gray-500 px-4 py-2 text-black focus:outline-none rounded-lg focus:border-purple-300 col-span-2"
                         placeholder='Nome Completo'
                         required
@@ -75,7 +79,7 @@ export const Contact = (props) => {
                         id='email'
                         name='email'
                         className="border border-gray-500 px-4 py-2 text-black focus:outline-none rounded-lg focus:border-purple-300"
-                        placeholder='E-mail'
+                        placeholder='E-mail'                        
                         required
                         onChange={handleChange}
                       />
@@ -86,7 +90,10 @@ export const Contact = (props) => {
                         name='phone'
                         className="border border-gray-500 px-4 py-2 text-black focus:outline-none rounded-lg focus:border-purple-300"
                         placeholder='Telefone'
-                        required
+                        minLength={8}
+                        maxLength={15}
+                        pattern="[0-9-+]+$"                                             
+                        required = 'Por favor insira o número do telefone corretamente.'                        
                         onChange={handleChange}
                       />
 
@@ -97,6 +104,8 @@ export const Contact = (props) => {
                     className="border border-gray-500 px-4 py-2 focus:outline-none text-black rounded-lg  focus:border-purple-300 col-span-2"
                     rows='4'
                     placeholder='Mensagem'
+                    minLength={10}
+                    maxLength={50}
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -157,7 +166,30 @@ export const Contact = (props) => {
         </div>
       </div>
 
-      
+      <div className='flex justify-center cursor-pointer m-20 border-t-2 p-5'>
+      <a
+                href="https://www.facebook.com/people/Up-Flow/100090353110076/?mibextid=LQQJ4d"
+                target="_blank"  rel="noreferrer"
+              >
+                <BsFacebook  className='p-6 w-24 h-24'/>
+                 
+              </a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=5541998419824&text&type=phone_number&app_absent=0"
+                target="_blank" rel="noreferrer"
+              >
+                <BsWhatsapp className='p-6 w-24 h-24'/>
+              </a>
+              <a
+                href="https://www.instagram.com/up.flowmarketing/"
+                target="_blank" rel="noreferrer"
+              >
+              <BsInstagram className='p-6  w-24 h-24'/>
+              </a>
+             
+       
+        
+      </div>
      
     </section>
     

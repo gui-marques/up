@@ -58,7 +58,7 @@ const Nav = () => {
             to="contact"
             activeClass="active"
             smooth={true}
-            offset={0}
+            offset={50}
             spy={true}
             className="cursor-pointer  flex items-center
             justfy-center">

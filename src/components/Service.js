@@ -1,5 +1,8 @@
 import React from "react";
-import Mkt from "../assets/1.png";
+import G from "../assets/g-1.png";
+import M from "../assets/m-1.png";
+import S from "../assets/s-1.png";
+import D from "../assets/d-1.png";
 
 import { motion } from "framer-motion";
 
@@ -28,8 +31,8 @@ const Service = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.4 }} >
             <img
-              class="rounded-full h-[120px] w-[120px] "
-              src={Mkt}
+              class="rounded-full h-[120px] w-[200px] "
+              src={M}
               alt=""/>
               <div className="grid justify-items-center">
             <p
@@ -56,13 +59,13 @@ const Service = () => {
             viewport={{ once: false, amount: 0.4 }}
           >
             <img
-              class="rounded-full h-[120px] w-[120px] "
-              src={Mkt}
+              class="rounded-full h-[120px] w-[200px] "
+              src={S}
               alt=""
               />
               <div className="grid justify-items-center">
-            <p className="mb-0 pt-5 text-[36px] lg:text-[21px] font-secondary  font-semibold p-0 uppercase leading-[1]">
-              SEO <br />
+            <p className="mb-3 pt-5 text-[36px] lg:text-[21px] font-secondary  font-semibold p-0 uppercase leading-[1]">
+              SEO 
               (otimização para motores de busca)
             </p>
             <p>
@@ -82,21 +85,19 @@ const Service = () => {
             viewport={{ once: false, amount: 0.4 }}
           >
             <img
-              class="rounded-full h-[120px] w-[120px] "
-              src={Mkt}
+              class="rounded-full h-[120px] w-[250px] "
+              src={D}
               alt=""
               />
             <div className="grid justify-items-center">
 
-            <p className="mb-0 pt-5 text-[36px] lg:text-[21px] font-secondary  font-semibold p-0 uppercase leading-[1]">
-              Publicidade nativa
+            <p className="mb-0 pt-0 text-[36px] lg:text-[21px] font-secondary  font-semibold p-0 uppercase leading-10">
+            Design gráfico
             </p>
             <p>
-              O objetivo da publicidade nativa é fazer com que os usuários
-              cliquem no conteúdo que os levará à página da sua empresa. Se o
-              conteúdo comercial anunciado for discreto e altamente relevante
-              para o material em questão, os usuários podem ter mais interesse
-              ​​em clicar.
+             Desenvolvemos elementos visuais para diversos meios de comunicações,
+             como impressos, digitais, audiovisuais, Nós utilizamos conceitos de arte, tipografia, composição,
+             cores e tecnologias para criar projetos que atendam às necessidades e objetivos dos nossos clientes. 
             </p>
             </div>
           </motion.div>
@@ -108,14 +109,14 @@ const Service = () => {
             viewport={{ once: false, amount: 0.4 }}
           >
             <img
-              class="rounded-full h-[120px] w-[120px] "
-              src={Mkt}
+              class="rounded-full h-[120px] w-[200px] "
+              src={G}
               alt=""
               />
               <div className="grid justify-items-center">
 
-            <p className="mb-0 pt-5 text-[36px] lg:text-[21px] font-secondary font-semibold p-0 uppercase leading-[1]">
-              Tráfego Orgânico/Pago
+            <p className="mb-0  text-[36px] lg:text-[21px] font-secondary font-semibold p-0 uppercase leading-[1]">
+            Gestão de Tráfego
             </p>
             <p className="place-self-auto">
               Trafego Orgânico/Pago é a maneira que o cliente chega até você,
