@@ -29,6 +29,7 @@ const App = () => {
       <Contact data={landingPageData.Contact} />  
      
       <div className='h-[13vh]'/>
+      
     </div>
   );
 };
