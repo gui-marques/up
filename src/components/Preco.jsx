@@ -32,13 +32,14 @@ const Preco = (props) => {
 
                 <p className="mt-2 text-sm leading-6 text-slate-300">
                   {plan.description}
-                </p>
+                </p>{/* Aqui fica os preços */}
                 <div className="-mx-8 mt-0 rounded-lg p-0">
-                  {/* <span className="text-sm font-semibold ">{plan.cifra}</span>
+                  
+                  <span className="text-sm font-semibold ">{plan.cifra}</span>
                   <span className="ml-1 text-4xl">{plan.preco}</span>
-                  <span className="ml-1.5">{plan.frequency}</span> */}
+                  <span className="ml-1.5">{plan.frequency}</span>
                 </div>
-
+                    {/* Aqui acaba os preços */}
                 <ul className="mt-4  space-y-1">
                   {plan.features.map((feature) => (
                     <li
