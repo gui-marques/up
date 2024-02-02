@@ -34,7 +34,7 @@
         {
             "title": "PREMIUM",
             "cifra": "R$",
-            "preco": "1299,90",
+            "preco": "1199,90",
             "frequency": "/Mês",
             "description": "Plano para quem já está a mais de dois anos no mercado digital",
             "features": [
@@ -47,7 +47,7 @@
             
         },
         {
-            "title": "COMBINAÇÕES",
+            "title": "Avulso",
             "cifra": "R$",
             "preco": "Aconsultar",
             "frequency": "",
@@ -63,7 +63,7 @@
       
     ],
     "Contact": {
-        "address": " Web",
+        "address": "Web",
         "phone": "+55 (41) 99841-9824",
         "email": "marketing@upflowmarketing.net",        
         "cnpj": "41.796.591/0001-32",
